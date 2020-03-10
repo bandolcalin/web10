@@ -1,0 +1,89 @@
+div{
+    display: inline-block;
+}
+
+.big-one{
+    margin: 40px;
+}
+
+.container{
+    float: left;
+    margin: 20px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.star{
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px 0px 0px;
+}
+
+.hearth{
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px 0px 0px;
+}
+
+.red_hearth{
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px 0px 0px;
+}
+
+.small-div, .small-div2, .small-div3, .small-div4{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.lorem{
+    color: rgb(128, 128, 128);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.rating{
+    color: rgb(128, 128, 128);;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-container{
+    margin: 0px;
+    padding: 0px 150px 0px 150px;
+}
+
+.button_1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    border-style: solid;
+    border: 2px black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 10px 0px 100px;
+}
+
+.button_2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border: 2px black;
+    padding: 10px 20px;
+    margin: 2px;
+}
+
+div > .button_2,.button_1{
+    border-style: solid;
+    border-color: black;
+  }
